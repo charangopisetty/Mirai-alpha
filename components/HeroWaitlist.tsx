@@ -70,7 +70,7 @@ export default function HeroWaitlist() {
           type="email"
           id="hero-email"
           className="form-input hero-email-input"
-          placeholder="you@company.com"
+          placeholder="you@gmail.com"
           autoComplete="email"
           inputMode="email"
           name="email"
@@ -80,7 +80,7 @@ export default function HeroWaitlist() {
         <button type="submit" className="btn btn-premium btn-lg" disabled={loading}>
           {loading ? "Sending…" : "Join the waitlist"}
           {!loading ? (
-            <em style={{ fontFamily: "Georgia, serif", fontSize: "18px" }}>α</em>
+            <em style={{ fontFamily: "Georgia, serif", fontSize: "18px" }}></em>
           ) : null}
         </button>
       </div>

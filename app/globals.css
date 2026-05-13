@@ -5,7 +5,7 @@
   --gold-500: #c9a24b;
   --gold-600: #c19a3d;
   --ink-1000: #0a0a0c;
-  --navy-900: #001F3F;
+  --navy-900:#001F3F;
   --ink-900: #0f1115;
   --ink-800: #181b21;
   --ink-700: #2a2f37;
@@ -114,7 +114,7 @@ a {
 
 .hero-brand .brand-tagline {
   font: 700 21px/1.35 var(--font-sans);
-  color: #ffbf00;
+  color: #ffa600;
   max-width: min(22rem, 55vw);
   letter-spacing: 0.04em;
   text-align: left;
