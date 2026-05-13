@@ -17,7 +17,7 @@ export default function Hero() {
               priority
               sizes="(max-width: 480px) 72px, (max-width: 640px) 84px, 108px"
             />
-            <span className="brand-tagline">Your Intelligent Investing Copilot.</span>
+            <span className="brand-tagline">An Investing Copilot.</span>
           </Link>
         </div>
         <div className="hero-inner">

@@ -5,6 +5,7 @@
   --gold-500: #c9a24b;
   --gold-600: #c19a3d;
   --ink-1000: #0a0a0c;
+  --navy-900: #001F3F;
   --ink-900: #0f1115;
   --ink-800: #181b21;
   --ink-700: #2a2f37;
@@ -12,7 +13,7 @@
   --ink-300: #a1a7b0;
   --paper-200: #f7f5f0;
   --neg: #d6473b;
-  --bg: var(--ink-1000);
+  --bg: var(--navy-900);
   --fg: var(--paper-200);
   --fg-muted: var(--ink-300);
   --fg-subtle: var(--ink-400);
@@ -112,11 +113,12 @@ a {
 }
 
 .hero-brand .brand-tagline {
-  font: 500 21px/1.35 var(--font-sans);
-  color: var(--fg-muted);
+  font: 700 21px/1.35 var(--font-sans);
+  color: #ffbf00;
   max-width: min(22rem, 55vw);
-  letter-spacing: 0.025em;
+  letter-spacing: 0.04em;
   text-align: left;
+  text-transform: uppercase;
   text-wrap: balance;
 }
 
@@ -223,7 +225,7 @@ a {
   background:
     radial-gradient(ellipse 60% 50% at 70% 50%, rgba(0, 197, 255, 0.06) 0%, transparent 70%),
     radial-gradient(ellipse 50% 40% at 15% 80%, rgba(201, 162, 75, 0.07) 0%, transparent 60%),
-    var(--ink-1000);
+    var(--bg);
   position: relative;
   overflow: hidden;
 }
